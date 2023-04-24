@@ -1,11 +1,7 @@
 ﻿#pragma once
 #pragma warning(disable : 4700)
 #define _CRT_SECURE_NO_WARNINGS
-//#define SND_FILENAME 0x20000
-//#define SND_LOOP 8 
-//#define SND_ASYNC 1 
 
-// use mutilflow
 #include<thread>
 #include<mutex> // Clock flow
 
@@ -13,7 +9,6 @@
 #include<string>
 #include<fstream>
 #include<iomanip>
-//#include<mmsystem.h>
 
 #include <stdio.h>
 #include <conio.h>

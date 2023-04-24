@@ -3,10 +3,6 @@
 #include"Header.h"
 
 
-//void playsound()
-//{
-//	PlaySound( TEXT("D:/đồ án/test/ConsoleApplication1/music/4.wav"), NULL, SND_ASYNC | SND_FILENAME);
-//}
 
 void Create_Backgroud()
 {
@@ -39,8 +35,7 @@ void Create_Backgroud()
 			//j++;
 		}
 
-		//if (i == 120)
-		//{
+
 		string str;
 		ifstream filein;
 		filein.open("hinh.txt", ios::in);
@@ -180,7 +175,6 @@ void Menu()
 
 		if (_kbhit())
 		{
-			//PlaySound(TEXT("D:\\đồ án\\test\\ConsoleApplication1\\music\\3.wav"), NULL, SND_FILENAME);
 			char c = _getch();
 			if (c == -32)
 			{
@@ -313,15 +307,7 @@ void flow1()
 
 }
 
-void flow2()
-{
-	/*char c = _getch();
-	if (c == )
-	mutex m;
-	m.lock();
-	soundbt();
-	m.unlock();*/
-}
+
 
 
 void Menu2()
@@ -806,44 +792,7 @@ void Game()
 		{
 			vitri_gunX = 43;
 		}
-		//TextColor(14);
-		//gotoXY(vitri1, vitri_gunY);
-		//cout << " ";
 
-		//TextColor(14);
-		//gotoXY(vitri2, vitri_gunY);
-		//cout << " ";
-
-		//gotoXY(vitri3, vitri_gunY);
-		//cout << " ";
-
-		//TextColor(14);
-		//gotoXY(vitri4, vitri_gunY);
-		//cout << " ";
-
-
-		//vitri1 = vitri_gunX;
-
-		//
-		//TextColor(14);
-		//gotoXY(vitri_gunX+=2 , vitri_gunY);
-		//cout << char(233);
-
-		//vitri2 = vitri_gunX;
-
-		//gotoXY(vitri_gunX++, vitri_gunY);
-		//cout << char(233);
-
-		//vitri3 = vitri_gunX;
-
-		//gotoXY(vitri_gunX++, vitri_gunY);
-		//cout << char(233);
-
-		//vitri4 = vitri_gunX;
-
-		//gotoXY(vitri_gunX, vitri_gunY);
-		//cout << char(233);
-		//vitri_gunX+=2;
 
 
 		TextColor(0);
@@ -940,52 +889,6 @@ void Game()
 		vitri11 = vitri_gunX1;
 
 
-		//TextColor(14);
-		//gotoXY(vitri_gunX1++, vitri_gunY1);
-		//cout << char(233);
-
-		//vitri21 = vitri_gunX1;
-
-		//gotoXY(vitri_gunX1++, vitri_gunY1);
-		//cout << char(233);
-
-		//vitri31 = vitri_gunX1;
-
-		//gotoXY(vitri_gunX1+=2, vitri_gunY1);
-		//cout << char(233);
-
-		//vitri41 = vitri_gunX1;
-
-		//gotoXY(vitri_gunX1, vitri_gunY1);
-		//cout << char(233);
-		//vitri_gunX1+= 2;
-
-
-
-		//vitri51 = vitri_gunX1;
-
-
-		//TextColor(14);
-		//gotoXY(vitri_gunX1++, vitri_gunY1);
-		//cout << char(233);
-
-		//vitri61 = vitri_gunX1;
-
-		//gotoXY(vitri_gunX1++, vitri_gunY1);
-		//cout << char(233);
-
-		//vitri71 = vitri_gunX1;
-
-		//gotoXY(vitri_gunX1 += 2, vitri_gunY1);
-		//cout << char(233);
-
-		//vitri81 = vitri_gunX1;
-
-		//gotoXY(vitri_gunX1, vitri_gunY1);
-		//cout << char(233);
-		//vitri_gunX1 += 2;
-
-
 		TextColor(14);
 		gotoXY(vitri_gunX1, vitri_gunY1);
 		cout << char(233);
@@ -1048,27 +951,6 @@ void Game()
 
 		vitri12 = vitri_gunX2;
 
-
-		//TextColor(14);
-		//gotoXY(vitri_gunX2++, vitri_gunY2);
-		//cout << char(233);
-
-		//vitri22 = vitri_gunX2;
-
-		//gotoXY(vitri_gunX2+=2, vitri_gunY2);
-		//cout << char(233);
-
-		//vitri32 = vitri_gunX2;
-
-		//gotoXY(vitri_gunX2++, vitri_gunY2);
-		//cout << char(233);
-
-		//vitri42 = vitri_gunX2;
-
-		//gotoXY(vitri_gunX2, vitri_gunY2);
-		//cout << char(233);
-		//vitri_gunX2 += 2;
-
 		TextColor(14);
 		gotoXY(vitri_gunX2, vitri_gunY2);
 		cout << char(233);
@@ -1124,25 +1006,6 @@ void Game()
 		vitri12_af = vitri_gunX2_af;
 
 
-		//TextColor(14);
-		//gotoXY(vitri_gunX2_af-=2, vitri_gunY2);
-		//cout << char(233);
-
-		//vitri22_af = vitri_gunX2_af;
-
-		//gotoXY(vitri_gunX2_af -= 2, vitri_gunY2);
-		//cout << char(233);
-
-		//vitri32_af = vitri_gunX2_af;
-
-		//gotoXY(vitri_gunX2_af--, vitri_gunY2);
-		//cout << char(233);
-
-		//vitri42_af = vitri_gunX2_af;
-
-		//gotoXY(vitri_gunX2_af, vitri_gunY2);
-		//cout << char(233);
-		//vitri_gunX2_af--;
 
 
 		TextColor(14);
@@ -1168,10 +1031,6 @@ void Game()
 		Sleep(10);
 
 		h3.unlock();
-
-
-
-
 	}
 }
 
@@ -1464,86 +1323,6 @@ void Check()
 		if (button == true)
 		{
 			mutex h;
-			//TextColor(0);
-			//old_vitriX--;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << "   ";
-
-			//old_vitriY++;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << "   ";
-
-			//old_vitriX++;
-			//old_vitriY--;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << "   ";
-			//TextColor(0);
-			//old_vitriY++;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-			//TextColor(0);
-			//old_vitriX++;
-			//old_vitriY--;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-			//TextColor(0);
-			//old_vitriY++;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-			//TextColor(0);
-			//old_vitriX++;
-			//old_vitriY--;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-			//TextColor(0);
-			//old_vitriY++;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-			//TextColor(0);
-			//old_vitriX++;
-			//old_vitriY--;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-			//TextColor(0);
-			//old_vitriY++;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-			//TextColor(0);
-			//old_vitriX++;
-			//old_vitriY--;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-			//TextColor(0);
-			//old_vitriY++;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-
-			//old_vitriX++;
-			//old_vitriY--;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-
-			//old_vitriY++;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-
-			//old_vitriX++;
-			//old_vitriY--;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-
-			//old_vitriY++;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-
-			//old_vitriX++;
-			//old_vitriY--;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
-
-			//old_vitriY++;
-			//gotoXY(old_vitriX, old_vitriY);
-			//cout << " ";
 
 			ifstream filein1;
 			filein1.open("nhanvatan.txt", ios::in);
