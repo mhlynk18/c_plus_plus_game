@@ -1,0 +1,11 @@
+This is a game console on C++.
+Expecially, This game is testing on my local computer 
+and have some fail which is needed to fix.
+
+My producer: TRan Phi Hung
+Leader : Youtube 
+Good Luck. 
+
+Thank you because of using our game. 1 Like for you.
+
+PLease press ESC to see your main screen.
